@@ -53,8 +53,8 @@ my $key = uri_escape($keydata);
 my $ca = uri_escape($cadata);
 
 system("whmapi1 installssl domain=${dom} crt=${cert} cabundle=${ca} key=${key}");
-chmod +x fixsslfromlogs.sh
-chmod +x installssl.sh
-chmod +x installssl.pl
 
-then launch fixsslfromlogs.sh
+#chmod +x fixsslfromlogs.sh
+#chmod +x installssl.sh
+#chmod +x installssl.pl
+#then launch fixsslfromlogs.sh

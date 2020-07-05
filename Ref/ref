@@ -1,0 +1,10 @@
+#Definitions
+#################################
+#combined=pvtkey,cert,chain
+#certificates=cert,chain
+##################################
+#cert=cert
+#chain=chain
+#fullchain=cert,chain
+####################################################################################
+#
