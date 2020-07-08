@@ -8,10 +8,10 @@ echo "Requesting new SSL Certifcate..."
 sleep 5
 #Setting paths and variable
 echo "Defining Initial Paths...."
-pwdd1='/etc/letsencrypt/live/transport.telangana.gov.in/'
-pwdd2='/var/cpanel/ssl/apache_tls/transport.telangana.gov.in/'
-old_combined_path='/var/cpanel/ssl/apache_tls/transport.telangana.gov.in/combined'
-old_certificates_path='/var/cpanel/ssl/apache_tls/transport.telangana.gov.in/certificates'
+pwdd1='/etc/letsencrypt/live/domainname.com/'
+pwdd2='/var/cpanel/ssl/apache_tls/domainname.com/'
+old_combined_path='/var/cpanel/ssl/apache_tls/domainname.com/combined'
+old_certificates_path='/var/cpanel/ssl/apache_tls/domainname.com/certificates'
 sleep 3
 #Done
 cd $pwdd1
